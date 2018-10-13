@@ -1,0 +1,6 @@
+{
+    "terminal" : "iterm-nightly",
+    "osascript" : "/usr/bin/osascript",
+    "debug" : false,
+    "directory_mode" : "file"
+}

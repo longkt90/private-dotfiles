@@ -1,0 +1,39 @@
+tap "codeclimate/formulae"
+tap "ethereum/ethereum"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "autoconf"
+brew "automake"
+brew "coreutils"
+brew "elasticsearch@2.4", restart_service: true
+brew "git"
+brew "gnupg"
+brew "ifstat"
+brew "libtool"
+brew "imagemagick", link: false
+brew "imagemagick@6", link: true
+brew "libssh2"
+brew "mas"
+brew "memcached"
+brew "mysql"
+brew "node"
+brew "peco"
+brew "postgresql", restart_service: true
+brew "python"
+brew "ruby-build"
+brew "rbenv"
+brew "rbspy"
+brew "redis", restart_service: true
+brew "wget"
+brew "zsh"
+brew "zsh-completions"
+brew "ethereum/ethereum/ethereum"
+brew "heroku/brew/heroku"
+cask "dnscrypt"
+cask "java"
+cask "ngrok"
+mas "iMovie", id: 408981434
+mas "Wunderlist", id: 410628904

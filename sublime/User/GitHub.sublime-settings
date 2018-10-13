@@ -1,0 +1,15 @@
+{
+	"accounts":
+	{
+		"GitHub":
+		{
+			"base_uri": "https://api.github.com",
+			"github_token": "a17e67d4e75778c5d9359c814acff6bad02148b6"
+		}
+	},
+	"active_account": "GitHub",
+	"always_highlight_current_line": false,
+	"debug": false,
+	"gist_list_format": "%(filename)s: %(description)s",
+	"gist_list_monospace": false
+}

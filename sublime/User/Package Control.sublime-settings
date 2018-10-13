@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Copy Relative Path",
+		"CSS Format",
+		"Delete Current File",
+		"Dockerfile Syntax Highlighting",
+		"Ethereum",
+		"EthereumSoliditySnippets",
+		"Gist",
+		"Git",
+		"Gitignore",
+		"GitOpenChangedFiles",
+		"Haml",
+		"HexViewer",
+		"HTMLBeautify",
+		"MarkdownLivePreview",
+		"MJML-syntax",
+		"Package Control",
+		"Pretty JSON",
+		"Pug",
+		"Rails Latest Migration",
+		"Rust Enhanced",
+		"RustFormat",
+		"SCSS",
+		"sublime-github",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-haml",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"Terminus",
+		"termX",
+		"TestRSpec",
+		"TOML",
+		"TypeScript",
+		"TypeScript Syntax",
+		"Underliner",
+		"VintageES",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package",
+		"Vuejs Snippets"
+	]
+}

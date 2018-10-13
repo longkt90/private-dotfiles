@@ -1,0 +1,26 @@
+[core]
+	editor = vim
+[alias]
+	rmlb = branch --merged | grep -v \"\\*\" | grep -v master | grep -v dev | xargs -n 1 git branch -d
+	co = checkout
+[push]
+	default = current
+[mergetool "subl"]
+	cmd = subl -w $MERGED
+	trustExitCode = false
+[diff]
+  tool = subl
+[difftool]
+  prompt = false
+[merge]
+	tool = subl
+[mergetool]
+  prompt = false
+[gpg]
+	program = /usr/local/bin/gpg
+[commit]
+	gpgsign = false
+[url "ssh://git@heroku.com/"]
+	insteadOf = https://git.heroku.com/
+[branch]
+	sort = -authordate

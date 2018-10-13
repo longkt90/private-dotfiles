@@ -1,0 +1,52 @@
+{
+  "target": "exec",
+  // spec output panel settings
+  "panel_settings": {
+    "encoding": "utf-8",
+    "syntax": "Packages/TestRSpec/themes/TestConsole.tmLanguage",
+    "color_scheme": "Packages/TestRSpec/themes/TestConsole.hidden-tmTheme",
+  },
+  // rspec command
+  "rspec_command": "zeus rspec",
+  // environment variables for rspec command
+  "env": {
+  },
+  "rspec_add_to_path": "DISABLE_PRY=true",
+  // rspec runner paths
+  "paths_bin_rspec": "rspec",
+  "paths_rbenv": "~/.rbenv/bin/rbenv",
+  "paths_rvm": "~/.rvm/bin/rvm-auto-ruby",
+  "paths_system_ruby": "/usr/bin/env ruby",
+  // which rubies to check for when running rspec
+  "check_for_rbenv": true,
+  "check_for_rvm": false,
+  "check_for_system_ruby": true,
+  "check_for_bundler": true,
+  "check_for_spring": false,
+  // switch spec/code directories to skip when searching by file name
+  "ignored_directories": [".git", "vendor", "tmp", "migrate"],
+  // specs root folder
+  "spec_folder": "spec",
+  // app/models/user.rb spec should be found in spec/model/user_spec.rb, omitting 'app' folder
+  "ignored_spec_path_building_directories": ["app"],
+  // auto save current file on spec run
+  "save_current_file_on_run": true,
+  // auto save all files on spec run
+  "save_all_files_on_run": false,
+  // create spec snippet defined line by line
+  "create_spec_snippet": [
+    "RSpec.describe ${class_name} do",
+    "",
+    "end",
+  ],
+  // create spec place cursor line number
+  "create_spec_cursor_line": 2,
+  // source files extension
+  "source_file_extension": ".rb",
+  // spec files extension
+  "spec_file_extension": "_spec.rb",
+  // regexp used to determine class name once creating new spec file
+  "create_spec_class_name_regexp": "(class|module)[ ]+([a-zA-Z0-9:]*)",
+  // if there is an exact match then directly jump to that one, show dropdown otherwise
+  "switch_code_test_immediately_on_direct_match": true,
+}
